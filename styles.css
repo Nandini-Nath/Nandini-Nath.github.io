@@ -1,0 +1,126 @@
+body {
+    margin: 0;
+    padding: 0;
+    font-family: Arial, sans-serif;
+    background-color: #f4f4f4;
+    color: #333;
+}
+
+.container {
+    width: 80%;
+    margin: auto;
+    overflow: hidden;
+}
+
+header {
+    background: #333;
+    color: #fff;
+    padding-top: 10px;
+    min-height: 30px;
+    border-bottom: #e8491d 3px solid;
+}
+
+header a {
+    color: #fff;
+    text-decoration: none;
+    text-transform: uppercase;
+    font-size: 16px;
+}
+
+header ul {
+    padding: 0;
+    list-style: none;
+}
+
+header ul li {
+    display: inline;
+    margin: 0 20px 0 0;
+}
+
+.hero {
+    background:black;
+    color: #170c0c;
+    padding: 5px 0;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-wrap: wrap;
+}
+.hero .hero-text {
+    flex: 1;
+position: absolute;
+left:5%;
+top:20%
+}
+
+.hero .hero-image img {
+    max-width: 100%;
+}
+
+.about-section, .services-section, .projects-section, .contact-section {
+    padding: 60px 0;
+    text-align: center;
+}
+.hero .btn {
+color: #5b03fd;
+}
+
+.services-section .service-cards {
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+}
+
+.service-cards .card {
+    background: #fff;
+    padding: 20px;
+    margin: 10px;
+    flex: 1;
+    min-width: 250px;
+    border-radius: 10px;
+    box-shadow: 0 2px 5px rgba(205, 103, 103, 0.1);
+}
+
+.projects-section .projects-grid {
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+}
+
+.projects-grid .project-card {
+    background: #fff;
+    padding: 20px;
+    margin: 10px;
+    flex: 1;
+    min-width: 250px;
+    border-radius: 10px;
+    box-shadow: 0 2px 5px rgba(221, 208, 28, 0.1);
+}
+
+.contact-section form {
+    display: flex;
+    flex-direction: column;
+}
+
+.contact-section form input, .contact-section form textarea {
+    margin-bottom: 10px;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+.contact-section form button {
+    padding: 10px;
+    background: #e8491d;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+footer {
+    background: #333;
+    color: #fff;
+    text-align: center;
+    padding: 20px 0;
+}
